@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* .img{
+  width: 100%;
+  height: 100vh;
+} */
+.body{
+  /* width: 100%;
+  height: 100%; */
+ display: flex;
+ justify-content: center;
+ 
+ /* margin-top: 10rem; */
+ /* background-color: blue; */
+}
+
+.Background{
+  background-image: url("/Img/Backgroundblur.jpg");
+  height: 100vh;
+}
+
+
+
+
+.box{
+  margin-top: 10rem;
+  width: 400px;
+  height: 400%;
+  background-color: rgba(167, 165, 163, 0.452);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+ 
+}
+
+.login{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 3.6rem;
+  color: #fff;
+}
+
+.username{
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.password{
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.input{
+  padding: 1rem;
+  width: 350px;
+  border: none;
+  background-color: none;
+  color: inherit !important;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  margin-bottom: 2.4rem;
+}
+
+.btn{
+  padding: 1rem;
+  width: 350px;
+  border: none;
+  background-color: rgb(206, 21, 166);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 2.4rem;
+}
+
+.btn:hover,
+.btn:active{
+  background-color: rgb(155, 39, 145);
+  transition: all 0.5s;
+  color: black;
+}
+
+.forgot-password{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
