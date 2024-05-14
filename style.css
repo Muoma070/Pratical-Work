@@ -2,7 +2,7 @@
 
 *{
   font-family: "Montserrat", sans-serif;
-  line-height: 1.7;
+  line-height: 1.3;
   letter-spacing: 1.7;
 }
 
@@ -18,25 +18,52 @@
   --Transition: all 0.5 ease;
 }
 
-/* NAVIGATION */
-.nav-item{
-  font-weight: 600;
-  color:#092c4c ;
-}
-
-.nav-link{
-  color:#092c4c 
-}
-
+/* SECTION BARS */
 section{
   padding: 80px 0;
 }
 
+
+
+/* NAVIGATION */
+.nav-item .nav-link {
+  font-weight: 600;
+  color:#092c4c ;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover{
+  color:rgb(27, 77, 124) ;
+  transition: all 0.5 ease;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon{
+  color:#727272 ;
+  background-color: #092c4c;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link{
+  color: #092c4c;
+}
+
+
+
+/* PHRASES */
 .phrase{
   background-color: #f2994a;
-  padding: 15px 0;
-  font-weight: 400;
+  padding: 30px 0;
+  font-weight: 600;
   color: white;
+}
+
+.p-l{
+  font-weight: 600;
+  padding: 10px 0;
+  background-color:rgba(242, 153, 74, 0.1);
+  color:#f2994a  ;
+  border-radius: 20px;
 }
 
 .phrases{
@@ -46,23 +73,16 @@ section{
   padding: 60px 0;
 }
 
-.p-l{
-  font-weight: 600;
-  background-color:rgba(242, 153, 74, 0.1);
-  color:#f2994a  ;
-  border-radius: 20px;
-}
 
-.head{
-  color: rgba(9, 44, 76, 1) ;
-}
 
+
+/* BUTTON - CLASSES */
 .btn{
   padding: 20px 35px;
   background-color: rgba(9, 44, 76, 1) ;
   border-radius: 40px;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .btn:hover{
@@ -79,12 +99,40 @@ section{
   padding: 20px 35px;
   border-radius: 40px;
   color: #f2994a;
-  font-size: 12px;
+  font-size: 14px;
   border: 1px solid #f2994a;
   background-color:white;
   margin-right: 20px;
   text-decoration: none;
 }
+
+.btn-in:hover{
+  color:white ;
+  background-color: #f2994a;
+  transition: all 0.5 ease;
+}
+
+
+
+
+
+
+
+
+.p-l{
+  font-weight: 600;
+  background-color:rgba(242, 153, 74, 0.1);
+  color:#f2994a  ;
+  border-radius: 20px;
+}
+
+.head{
+  color: rgba(9, 44, 76, 1) ;
+  font-size: 3rem;
+}
+
+
+
 
 .icon{
   width: 55px;
@@ -122,4 +170,8 @@ span{
 
 .w2{
   padding: 20px 80px;
+}
+
+.m0{
+  margin-bottom: 10rem;
 }
